@@ -1,0 +1,26 @@
+[package]
+name = "ActixWebTemplateAPI"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+bytes = "*"
+failure="*"
+tokio = "0.2.16"
+env_logger = "*"
+futures = "*"
+serde_json = "*"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+json = "0.12.4"
+actix = "*"
+actix-web = "*"
+chrono = "0.4.19"
+actix-cors = "0.3.0"
+rustc-serialize = "*"
+actix-rt = "1.1.1"
+
+
